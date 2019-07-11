@@ -12,8 +12,8 @@ $hasil = mysqli_query($kon,$sql);
 if (!$hasil) die ('Gagal Query...');
 
 $data = mysqli_fetch_array($hasil);
-$nama_brg= $data['nama'];
-$jenis_brg= $data['jenis'];
+$nama_brg= $data['nama_brg'];
+$jenis_brg= $data['jenis_brg'];
 $harga= $data['harga'];
 
 echo "<h2>Konfirmasi Hapus</h2>" ;
