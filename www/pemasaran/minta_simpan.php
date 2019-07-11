@@ -1,8 +1,4 @@
 <?php
-<meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
 if(isset($_POST['kode_per_brg'])){
 $kode_per_brg = $_POST['kode_per_brg'];
 $simpan = "EDIT";
