@@ -7,6 +7,7 @@
   
 <body bgcolor="lightgreen" background="pict/gambar.jpg" >
 	<?php 
+	error_reporting(0);
 	session_start();
 
 	// cek apakah yang mengakses halaman ini sudah login
