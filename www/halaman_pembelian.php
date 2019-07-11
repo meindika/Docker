@@ -6,6 +6,7 @@
   <meta name="author" content="">
 <body>
 	<?php 
+	error_reporting(0);
 	session_start();
 
 	// cek apakah yang mengakses halaman ini sudah login
