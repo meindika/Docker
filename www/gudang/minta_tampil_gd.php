@@ -9,7 +9,7 @@ $cari="";
 if(isset($_POST["cari"]))
 $cari = $_POST["cari"];
 include "../koneksi2.php";
-$sql = "select * from Permintaan_barang where kode_brg LIKE '%".$cari."%'order by kode_per_brg desc";
+$sql = "select * from permintaan_barang where kode_brg LIKE '%".$cari."%'order by kode_per_brg desc";
 
 $hasil = mysqli_query($kon, $sql);
 if (!$hasil)
